@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^characters/([0-9]+)/?$ characters/index.php?id=$1
