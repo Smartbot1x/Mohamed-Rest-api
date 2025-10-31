@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "72965f5c-4994-4b7d-9d84-68718dc9ff04",
+		"name": "demon slayer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42842592"
+	},
+	"item": [
+		{
+			"name": "hent alle characters",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "hent character id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "opret en character",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/demon-slayer/characters/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"demon-slayer",
+						"characters",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "opdater character",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/demon-slayer/characters/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"demon-slayer",
+						"characters",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "slet chracter",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "types/slayer/demon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
