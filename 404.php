@@ -1,1 +1,1 @@
-not found page for DocumentRoot set to characters/ directory
+not found page 
